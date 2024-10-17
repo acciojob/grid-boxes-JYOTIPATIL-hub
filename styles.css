@@ -10,7 +10,7 @@
 .item9{ grid-area: 9; }
 .item10 { grid-area:10; }*/
 
-#grid-container {
+#grid{
   display: grid;
 grid-template-columns:repeat(4,1fr) ;
 	grid-template-rows:repeat(5,1fr);
