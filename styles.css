@@ -10,15 +10,14 @@
 .item9{ grid-area: 9; }
 .item10 { grid-area:10; }
 
-.grid-container {
-  display: grid;
-  
-  gap: 10px;
+#grid-container {
+  display:grid;
+  gap: 10px 10px;
   background-color: #2196F3;
   padding: 10px;
 }
 
-.grid-container > div {
+#grid-container > div {
   background-color: rgba(000, 255, 000,1);
   text-align: left;
   padding: 20px 0;
