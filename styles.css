@@ -1,18 +1,26 @@
 /*  your css code here. If applicable */
+.item1 { grid-area: 1; }
+.item2 { grid-area: 2; }
+.item3 { grid-area: 3; }
+.item4 { grid-area: 4; }
+.item5 { grid-area: 5; }
+.item6 { grid-area: 6; }
+.item7 { grid-area: 7; }
+.item8 { grid-area: 8; }
+.item9{ grid-area: 9; }
+.item10 { grid-area:10; }
+
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
-  grid-template-rows: auto;
-  gap: 10px; /* Adjust the gap between items if needed */
-}
-
-.item1 {
-  grid-column: 1 / -1; /* Span across all columns */
-  background-color: lightblue;
-}
-
-.item2, .item3, .item4 {
-  background-color: lightgray;
-  text-align: center;
+  
+  gap: 10px;
+  background-color: #2196F3;
   padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(000, 255, 000,1);
+  text-align: left;
+  padding: 20px 0;
+  font-size: 30px;
 }
